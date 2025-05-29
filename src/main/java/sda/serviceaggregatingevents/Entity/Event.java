@@ -32,4 +32,4 @@ public class Event {
     private List<Comment> comments;
 }
 
-//comentariu
+
