@@ -2,7 +2,7 @@ package sda.serviceaggregatingevents.Entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-
+//1
 @Entity
 @Data
 @NoArgsConstructor
