@@ -31,3 +31,5 @@ public class Event {
     @OneToMany(mappedBy = "event")
     private List<Comment> comments;
 }
+
+//comentariu
