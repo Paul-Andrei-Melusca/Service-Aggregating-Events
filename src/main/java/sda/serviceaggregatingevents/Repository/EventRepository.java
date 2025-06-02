@@ -10,4 +10,5 @@ public interface EventRepository extends JpaRepository<Event, Long> {
     List<Event> findByTitleContainingIgnoreCase(String keyword);
     List<Event> findByStartTimeAfter(LocalDateTime dateTime);
     List<Event> findByStartTimeBetween(LocalDateTime from, LocalDateTime to);
+
 }

@@ -18,6 +18,7 @@ public class CommentService {
         return commentRepository.save(comment);
     }
 
+
     public List<Comment> getAllComments() {
         return commentRepository.findAll();
     }

@@ -1,7 +1,7 @@
-package sda.serviceaggregatingevents.repository;
+package sda.serviceaggregatingevents.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import sda.serviceaggregatingevents.entity.Comment;
+import sda.serviceaggregatingevents.Entity.Comment;
 
 import java.util.List;
 

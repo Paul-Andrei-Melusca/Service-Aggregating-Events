@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import sda.serviceaggregatingevents.Entity.User;
-import sda.serviceaggregatingevents.service.UserService;
+import sda.serviceaggregatingevents.Service.UserService;
 
 import java.util.List;
 
